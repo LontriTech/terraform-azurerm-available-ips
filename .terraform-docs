@@ -1,0 +1,21 @@
+formatter: "markdown"
+
+recursive:
+  enabled: true
+  path: example
+
+output:
+  file: "README.md"
+  mode: replace
+
+settings:
+  color: false
+  description: true
+  hide-empty: true
+  read-comments: true
+  sensitive: true
+  lockfile: true
+
+sort:
+  enabled: true
+  by: required
