@@ -2,7 +2,7 @@ formatter: "markdown"
 
 recursive:
   enabled: true
-  path: example
+  path: examples
 
 output:
   file: "README.md"
