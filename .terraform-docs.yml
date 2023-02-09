@@ -1,0 +1,14 @@
+formatter: "markdown"
+
+output:
+  file: "README.md"
+  mode: replace
+
+settings:
+  color: false
+  description: true
+  hide-empty: true
+
+sort:
+  enabled: true
+  by: required
