@@ -1,1 +1,19 @@
-* text eol=lf
+# More on Git Attributes: https://git-scm.com/docs/gitattributes
+
+# Auto identify text files & sets line endings to LF & sets charset to UTF-8 & fixes whitespaces
+* text=auto eol=lf working-tree-encoding=UTF-8 whitespace=fix
+
+# Git Archive exports only scripts
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+*.md export-ignore
+
+# Add metadata to files
+*.sh export-subst
+
+# GitHub Specific Config
+*.md linguist-documentation
+.editorconfig linguist-language=INI
+.gitattributes linguist-language=INI
+.gitignore linguist-language=INI
